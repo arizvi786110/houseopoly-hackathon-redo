@@ -1,0 +1,4506 @@
+{
+  "headline": {
+    "quarter": "2026 Q1",
+    "children_in_ta": 101620,
+    "households_in_ta": 76020,
+    "households_with_children": 51190,
+    "classrooms": 3893,
+    "low_quarter": "2022 Q2",
+    "low_children": 74470,
+    "change_since_low_pct": 36.5,
+    "forecast_end_quarter": "2028 Q1",
+    "forecast_end_children": 114152,
+    "forecast_end_low_80": 96988,
+    "forecast_end_high_80": 131317,
+    "forecast_end_classrooms": 4374,
+    "london_children_0_17": 1839292,
+    "per_100_children": 5.52
+  },
+  "london_series": [
+    {
+      "quarter": "2019 Q3",
+      "children_in_ta": 90080,
+      "households_in_ta": 58230,
+      "households_with_children": 43920,
+      "bnb_children_over_6_weeks": 180,
+      "classrooms": 3451
+    },
+    {
+      "quarter": "2019 Q4",
+      "children_in_ta": 90080,
+      "households_in_ta": 58670,
+      "households_with_children": 43910,
+      "bnb_children_over_6_weeks": 170,
+      "classrooms": 3451
+    },
+    {
+      "quarter": "2020 Q1",
+      "children_in_ta": 89540,
+      "households_in_ta": 59930,
+      "households_with_children": 44150,
+      "bnb_children_over_6_weeks": 160,
+      "classrooms": 3431
+    },
+    {
+      "quarter": "2020 Q2",
+      "children_in_ta": 89820,
+      "households_in_ta": 62650,
+      "households_with_children": 44180,
+      "bnb_children_over_6_weeks": 170,
+      "classrooms": 3441
+    },
+    {
+      "quarter": "2020 Q3",
+      "children_in_ta": 86280,
+      "households_in_ta": 60530,
+      "households_with_children": 42290,
+      "bnb_children_over_6_weeks": 130,
+      "classrooms": 3306
+    },
+    {
+      "quarter": "2020 Q4",
+      "children_in_ta": 85020,
+      "households_in_ta": 60440,
+      "households_with_children": 41660,
+      "bnb_children_over_6_weeks": 140,
+      "classrooms": 3257
+    },
+    {
+      "quarter": "2021 Q1",
+      "children_in_ta": 85100,
+      "households_in_ta": 59830,
+      "households_with_children": 41530,
+      "bnb_children_over_6_weeks": 140,
+      "classrooms": 3261
+    },
+    {
+      "quarter": "2021 Q2",
+      "children_in_ta": 85500,
+      "households_in_ta": 60140,
+      "households_with_children": 41810,
+      "bnb_children_over_6_weeks": 70,
+      "classrooms": 3276
+    },
+    {
+      "quarter": "2021 Q3",
+      "children_in_ta": 76710,
+      "households_in_ta": 58720,
+      "households_with_children": 38750,
+      "bnb_children_over_6_weeks": 160,
+      "classrooms": 2939
+    },
+    {
+      "quarter": "2021 Q4",
+      "children_in_ta": 76470,
+      "households_in_ta": 59100,
+      "households_with_children": 38780,
+      "bnb_children_over_6_weeks": 80,
+      "classrooms": 2930
+    },
+    {
+      "quarter": "2022 Q1",
+      "children_in_ta": 75820,
+      "households_in_ta": 56430,
+      "households_with_children": 38150,
+      "bnb_children_over_6_weeks": 110,
+      "classrooms": 2905
+    },
+    {
+      "quarter": "2022 Q2",
+      "children_in_ta": 74470,
+      "households_in_ta": 56340,
+      "households_with_children": 37780,
+      "bnb_children_over_6_weeks": 200,
+      "classrooms": 2853
+    },
+    {
+      "quarter": "2022 Q3",
+      "children_in_ta": 75350,
+      "households_in_ta": 57540,
+      "households_with_children": 38230,
+      "bnb_children_over_6_weeks": 310,
+      "classrooms": 2887
+    },
+    {
+      "quarter": "2022 Q4",
+      "children_in_ta": 74830,
+      "households_in_ta": 57490,
+      "households_with_children": 38110,
+      "bnb_children_over_6_weeks": 470,
+      "classrooms": 2867
+    },
+    {
+      "quarter": "2023 Q1",
+      "children_in_ta": 77120,
+      "households_in_ta": 60100,
+      "households_with_children": 39660,
+      "bnb_children_over_6_weeks": 690,
+      "classrooms": 2955
+    },
+    {
+      "quarter": "2023 Q2",
+      "children_in_ta": 82610,
+      "households_in_ta": 60730,
+      "households_with_children": 41780,
+      "bnb_children_over_6_weeks": 1190,
+      "classrooms": 3165
+    },
+    {
+      "quarter": "2023 Q3",
+      "children_in_ta": 83350,
+      "households_in_ta": 61760,
+      "households_with_children": 42010,
+      "bnb_children_over_6_weeks": 1360,
+      "classrooms": 3193
+    },
+    {
+      "quarter": "2023 Q4",
+      "children_in_ta": 84920,
+      "households_in_ta": 63200,
+      "households_with_children": 42860,
+      "bnb_children_over_6_weeks": 1500,
+      "classrooms": 3254
+    },
+    {
+      "quarter": "2024 Q1",
+      "children_in_ta": 86750,
+      "households_in_ta": 65200,
+      "households_with_children": 44040,
+      "bnb_children_over_6_weeks": 1640,
+      "classrooms": 3324
+    },
+    {
+      "quarter": "2024 Q2",
+      "children_in_ta": 91000,
+      "households_in_ta": 68940,
+      "households_with_children": 46200,
+      "bnb_children_over_6_weeks": 1880,
+      "classrooms": 3487
+    },
+    {
+      "quarter": "2024 Q3",
+      "children_in_ta": 92810,
+      "households_in_ta": 70400,
+      "households_with_children": 47040,
+      "bnb_children_over_6_weeks": 1540,
+      "classrooms": 3556
+    },
+    {
+      "quarter": "2024 Q4",
+      "children_in_ta": 93870,
+      "households_in_ta": 72130,
+      "households_with_children": 47680,
+      "bnb_children_over_6_weeks": 1420,
+      "classrooms": 3597
+    },
+    {
+      "quarter": "2025 Q1",
+      "children_in_ta": 94360,
+      "households_in_ta": 73090,
+      "households_with_children": 48260,
+      "bnb_children_over_6_weeks": 980,
+      "classrooms": 3615
+    },
+    {
+      "quarter": "2025 Q2",
+      "children_in_ta": 97120,
+      "households_in_ta": 74680,
+      "households_with_children": 49250,
+      "bnb_children_over_6_weeks": 850,
+      "classrooms": 3721
+    },
+    {
+      "quarter": "2025 Q3",
+      "children_in_ta": 99160,
+      "households_in_ta": 75770,
+      "households_with_children": 50000,
+      "bnb_children_over_6_weeks": 570,
+      "classrooms": 3799
+    },
+    {
+      "quarter": "2025 Q4",
+      "children_in_ta": 100880,
+      "households_in_ta": 75550,
+      "households_with_children": 50890,
+      "bnb_children_over_6_weeks": 380,
+      "classrooms": 3865
+    },
+    {
+      "quarter": "2026 Q1",
+      "children_in_ta": 101620,
+      "households_in_ta": 76020,
+      "households_with_children": 51190,
+      "bnb_children_over_6_weeks": 320,
+      "classrooms": 3893
+    }
+  ],
+  "forecast": [
+    {
+      "quarter": "2026 Q2",
+      "forecast": 103354,
+      "low_80": 100245,
+      "high_80": 106462,
+      "low_95": 98600,
+      "high_95": 108107,
+      "classrooms": 3960
+    },
+    {
+      "quarter": "2026 Q3",
+      "forecast": 104896,
+      "low_80": 100233,
+      "high_80": 109559,
+      "low_95": 97765,
+      "high_95": 112028,
+      "classrooms": 4019
+    },
+    {
+      "quarter": "2026 Q4",
+      "forecast": 106439,
+      "low_80": 100054,
+      "high_80": 112823,
+      "low_95": 96675,
+      "high_95": 116203,
+      "classrooms": 4078
+    },
+    {
+      "quarter": "2027 Q1",
+      "forecast": 107982,
+      "low_80": 99719,
+      "high_80": 116244,
+      "low_95": 95345,
+      "high_95": 120618,
+      "classrooms": 4137
+    },
+    {
+      "quarter": "2027 Q2",
+      "forecast": 109524,
+      "low_80": 99236,
+      "high_80": 119813,
+      "low_95": 93789,
+      "high_95": 125259,
+      "classrooms": 4196
+    },
+    {
+      "quarter": "2027 Q3",
+      "forecast": 111067,
+      "low_80": 98615,
+      "high_80": 123519,
+      "low_95": 92023,
+      "high_95": 130111,
+      "classrooms": 4255
+    },
+    {
+      "quarter": "2027 Q4",
+      "forecast": 112610,
+      "low_80": 97863,
+      "high_80": 127356,
+      "low_95": 90057,
+      "high_95": 135162,
+      "classrooms": 4315
+    },
+    {
+      "quarter": "2028 Q1",
+      "forecast": 114152,
+      "low_80": 96988,
+      "high_80": 131317,
+      "low_95": 87902,
+      "high_95": 140403,
+      "classrooms": 4374
+    }
+  ],
+  "forecast_model": {
+    "model": "Holt's exponential smoothing",
+    "trained_on": "2019 Q3 to 2026 Q1",
+    "backtest_mae_overall": 2201,
+    "backtest_mae_by_quarters_ahead": {
+      "1": 1126,
+      "2": 2266,
+      "3": 2758,
+      "4": 2973
+    },
+    "baselines_mae_overall": {
+      "drift_recent": 2320,
+      "holt_damped": 3765,
+      "naive": 4407
+    },
+    "note": "If current trends continue. Ranges show 80% and 95% prediction intervals."
+  },
+  "bnb_over_6_weeks": {
+    "peak_quarter": "2024 Q2",
+    "peak_families": 1880,
+    "latest_families": 320
+  },
+  "boroughs_latest": [
+    {
+      "ons_code": "E09000025",
+      "borough": "Newham",
+      "children_in_ta": 10952,
+      "households_in_ta": 7561,
+      "households": 126480,
+      "ta_per_1000_households": 59.78,
+      "children_per_1000_households": 86.59,
+      "classrooms": 420,
+      "bnb_children_over_6_weeks": 6,
+      "placed_in_another_area": 3173,
+      "pct_households_placed_elsewhere": 42.0,
+      "children_0_17": 79500,
+      "per_100_children": 13.78,
+      "quarters_missing": 2,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 7841
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 7842
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 7869
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 7866
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 7895
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 8025
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 7967
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 8224
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 8376
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 8288
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 8363
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 8372
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 8461
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 8596
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 8802
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 9034
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 9179
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 9534
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 9776
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 10093
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 9950
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 10331
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 10652
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 10707
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 10952
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000026",
+      "borough": "Redbridge",
+      "children_in_ta": 4443,
+      "households_in_ta": 2818,
+      "households": 107833,
+      "ta_per_1000_households": 26.13,
+      "children_per_1000_households": 41.2,
+      "classrooms": 170,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1433,
+      "pct_households_placed_elsewhere": 50.9,
+      "children_0_17": 75123,
+      "per_100_children": 5.91,
+      "quarters_missing": 6,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 3878
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 3939
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 3921
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 3940
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 3967
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 4016
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 4114
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 4159
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 4225
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 4332
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 4401
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 4415
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 4479
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 4480
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 5415
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 4260
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 4359
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 4340
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 4421
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 4425
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4443
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000028",
+      "borough": "Southwark",
+      "children_in_ta": 5710,
+      "households_in_ta": 4197,
+      "households": 140319,
+      "ta_per_1000_households": 29.91,
+      "children_per_1000_households": 40.69,
+      "classrooms": 219,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1987,
+      "pct_households_placed_elsewhere": 47.3,
+      "children_0_17": 52380,
+      "per_100_children": 10.9,
+      "quarters_missing": 2,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3623
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3166
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2100
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 1941
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2091
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2171
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2352
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2441
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2561
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 2643
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 2687
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 2784
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 2795
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 2878
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 2940
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3021
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3169
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 3258
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 3370
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 3442
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3611
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3763
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3793
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 5686
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 5710
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000022",
+      "borough": "Lambeth",
+      "children_in_ta": 5553,
+      "households_in_ta": 4253,
+      "households": 137502,
+      "ta_per_1000_households": 30.93,
+      "children_per_1000_households": 40.38,
+      "classrooms": 213,
+      "bnb_children_over_6_weeks": null,
+      "placed_in_another_area": 2501,
+      "pct_households_placed_elsewhere": 58.8,
+      "children_0_17": 48738,
+      "per_100_children": 11.39,
+      "quarters_missing": 17,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3806
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3898
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 4005
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 3998
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 4104
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 4208
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 6188
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 6012
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 5842
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 5553
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000010",
+      "borough": "Enfield",
+      "children_in_ta": 4788,
+      "households_in_ta": 3084,
+      "households": 122009,
+      "ta_per_1000_households": 25.28,
+      "children_per_1000_households": 39.24,
+      "classrooms": 183,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 860,
+      "pct_households_placed_elsewhere": 27.9,
+      "children_0_17": 77419,
+      "per_100_children": 6.18,
+      "quarters_missing": 8,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 5571
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 5667
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 5601
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 5480
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 1565
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1633
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1619
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 4531
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 4508
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 4540
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 4608
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 4596
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 4641
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 4661
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 4556
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 4591
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 4700
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 4709
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4788
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000033",
+      "borough": "Westminster",
+      "children_in_ta": 3973,
+      "households_in_ta": 5019,
+      "households": 103277,
+      "ta_per_1000_households": 48.6,
+      "children_per_1000_households": 38.47,
+      "classrooms": 152,
+      "bnb_children_over_6_weeks": 211,
+      "placed_in_another_area": 3280,
+      "pct_households_placed_elsewhere": 65.4,
+      "children_0_17": 27204,
+      "per_100_children": 14.6,
+      "quarters_missing": 5,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3716
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3707
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 3693
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 3843
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 3917
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 3837
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 3522
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 3615
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 3737
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 3638
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 3611
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3608
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3340
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 3241
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 3226
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 3251
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3541
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3708
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3805
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 3905
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 3959
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 3973
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000012",
+      "borough": "Hackney",
+      "children_in_ta": 4303,
+      "households_in_ta": 3684,
+      "households": 112483,
+      "ta_per_1000_households": 32.75,
+      "children_per_1000_households": 38.25,
+      "classrooms": 165,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1805,
+      "pct_households_placed_elsewhere": 49.0,
+      "children_0_17": 52059,
+      "per_100_children": 8.27,
+      "quarters_missing": 8,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3869
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3923
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 3930
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 3984
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 3960
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 3780
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 3827
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3924
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3950
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 4105
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 4184
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 4169
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 4195
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 4161
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 4182
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 4222
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 4286
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 4307
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4303
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000014",
+      "borough": "Haringey",
+      "children_in_ta": 3753,
+      "households_in_ta": 2712,
+      "households": 107080,
+      "ta_per_1000_households": 25.33,
+      "children_per_1000_households": 35.05,
+      "classrooms": 144,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1496,
+      "pct_households_placed_elsewhere": 55.2,
+      "children_0_17": 51119,
+      "per_100_children": 7.34,
+      "quarters_missing": 1,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 5277
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 5319
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 5313
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 5201
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 5039
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 4954
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 4954
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 4724
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 4553
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 4409
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 4295
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 4265
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 4149
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 4146
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 4160
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 4095
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 4070
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 4029
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 4031
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 3946
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3968
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3933
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3876
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 3776
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 3733
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 3753
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000030",
+      "borough": "Tower Hamlets",
+      "children_in_ta": 4911,
+      "households_in_ta": 3096,
+      "households": 140545,
+      "ta_per_1000_households": 22.03,
+      "children_per_1000_households": 34.94,
+      "classrooms": 188,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1329,
+      "pct_households_placed_elsewhere": 42.9,
+      "children_0_17": 59970,
+      "per_100_children": 8.19,
+      "quarters_missing": 9,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 4507
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 4543
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 4541
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 4574
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 4513
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 4265
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3851
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3907
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 4094
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 4154
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 4262
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 4388
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 4477
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 4543
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 4665
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 4745
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 4880
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4911
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000009",
+      "borough": "Ealing",
+      "children_in_ta": 4427,
+      "households_in_ta": 2963,
+      "households": 139747,
+      "ta_per_1000_households": 21.2,
+      "children_per_1000_households": 31.68,
+      "classrooms": 170,
+      "bnb_children_over_6_weeks": 41,
+      "placed_in_another_area": 1093,
+      "pct_households_placed_elsewhere": 36.9,
+      "children_0_17": 78023,
+      "per_100_children": 5.67,
+      "quarters_missing": 6,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3577
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3452
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 3232
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 3415
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 3811
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 3705
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 3664
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 3464
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 3441
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 3397
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 3432
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 3636
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3789
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3816
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 3843
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 4208
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 4538
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 4574
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 4628
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 4436
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4427
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000020",
+      "borough": "Kensington and Chelsea",
+      "children_in_ta": 2250,
+      "households_in_ta": 1810,
+      "households": 71121,
+      "ta_per_1000_households": 25.45,
+      "children_per_1000_households": 31.64,
+      "classrooms": 86,
+      "bnb_children_over_6_weeks": 4,
+      "placed_in_another_area": 642,
+      "pct_households_placed_elsewhere": 35.5,
+      "children_0_17": 20679,
+      "per_100_children": 10.88,
+      "quarters_missing": 10,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 2584
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 2566
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2576
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 2567
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2584
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2603
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2566
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 863
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 2448
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 2373
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 2456
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 2444
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 2489
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 2437
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 2380
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 2296
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 2250
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000032",
+      "borough": "Wandsworth",
+      "children_in_ta": 4417,
+      "households_in_ta": 4314,
+      "households": 143863,
+      "ta_per_1000_households": 29.99,
+      "children_per_1000_households": 30.7,
+      "classrooms": 169,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1928,
+      "pct_households_placed_elsewhere": 44.7,
+      "children_0_17": 56416,
+      "per_100_children": 7.83,
+      "quarters_missing": 3,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 2878
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2882
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2825
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2933
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2946
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 3104
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 3164
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 3271
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 3336
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 3415
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 3426
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 3359
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3397
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3449
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 3503
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 3511
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 3568
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 3637
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3644
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3745
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3947
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 4204
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 4296
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4417
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000005",
+      "borough": "Brent",
+      "children_in_ta": 3704,
+      "households_in_ta": 2444,
+      "households": 122803,
+      "ta_per_1000_households": 19.9,
+      "children_per_1000_households": 30.16,
+      "classrooms": 142,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 827,
+      "pct_households_placed_elsewhere": 33.8,
+      "children_0_17": 71193,
+      "per_100_children": 5.2,
+      "quarters_missing": 14,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 4111
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 4027
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 3966
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 3922
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 3672
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 3442
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 2007
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 2992
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 2864
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 2804
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3552
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 3508
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 3704
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000008",
+      "borough": "Croydon",
+      "children_in_ta": 4613,
+      "households_in_ta": 3241,
+      "households": 158704,
+      "ta_per_1000_households": 20.42,
+      "children_per_1000_households": 29.07,
+      "classrooms": 177,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 855,
+      "pct_households_placed_elsewhere": 26.4,
+      "children_0_17": 91531,
+      "per_100_children": 5.04,
+      "quarters_missing": 5,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3068
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 2863
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 3148
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 3084
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2980
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2866
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2774
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2820
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2830
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 2784
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 2710
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 2632
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 2656
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 2589
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 2547
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 3343
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 3752
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3803
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3933
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 3965
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 4591
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 4613
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000023",
+      "borough": "Lewisham",
+      "children_in_ta": 3627,
+      "households_in_ta": 2317,
+      "households": 125846,
+      "ta_per_1000_households": 18.41,
+      "children_per_1000_households": 28.82,
+      "classrooms": 139,
+      "bnb_children_over_6_weeks": null,
+      "placed_in_another_area": 1070,
+      "pct_households_placed_elsewhere": 46.2,
+      "children_0_17": 59714,
+      "per_100_children": 6.07,
+      "quarters_missing": 10,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 4820
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 5081
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 5057
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 3832
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 3885
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 3903
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 3897
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 3941
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 3867
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 3808
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 3900
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 3938
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 4138
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 3990
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3823
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 3665
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 3627
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000015",
+      "borough": "Harrow",
+      "children_in_ta": 2591,
+      "households_in_ta": 1485,
+      "households": 93134,
+      "ta_per_1000_households": 15.94,
+      "children_per_1000_households": 27.82,
+      "classrooms": 99,
+      "bnb_children_over_6_weeks": 1,
+      "placed_in_another_area": 657,
+      "pct_households_placed_elsewhere": 44.2,
+      "children_0_17": 58360,
+      "per_100_children": 4.44,
+      "quarters_missing": 3,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 1815
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 1815
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2048
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 2068
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2000
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 1948
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2036
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2003
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2018
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1947
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1861
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 1875
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1943
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1941
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1906
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1887
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1912
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1914
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1902
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 2235
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 2446
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 2481
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 2485
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 2591
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000011",
+      "borough": "Greenwich",
+      "children_in_ta": 3025,
+      "households_in_ta": 1886,
+      "households": 121752,
+      "ta_per_1000_households": 15.49,
+      "children_per_1000_households": 24.85,
+      "classrooms": 116,
+      "bnb_children_over_6_weeks": 4,
+      "placed_in_another_area": 712,
+      "pct_households_placed_elsewhere": 37.8,
+      "children_0_17": 62301,
+      "per_100_children": 4.86,
+      "quarters_missing": 2,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 1859
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 1945
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2038
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 2070
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2056
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2017
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2091
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2433
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 2507
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 2574
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 2515
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 2602
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 2599
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 2627
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 2831
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 2836
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 2895
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 2962
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 3064
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3003
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3056
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3124
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 3095
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 3055
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 3025
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000031",
+      "borough": "Waltham Forest",
+      "children_in_ta": 2382,
+      "households_in_ta": 1544,
+      "households": 106304,
+      "ta_per_1000_households": 14.52,
+      "children_per_1000_households": 22.41,
+      "classrooms": 91,
+      "bnb_children_over_6_weeks": 5,
+      "placed_in_another_area": 792,
+      "pct_households_placed_elsewhere": 51.3,
+      "children_0_17": 60156,
+      "per_100_children": 3.96,
+      "quarters_missing": 3,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3632
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3626
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 3506
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2988
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2677
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2296
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2073
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1968
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1866
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 1850
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1737
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1730
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1635
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1658
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1683
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1776
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1908
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1988
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 2205
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 2350
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 2346
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 2403
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 2481
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 2382
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000003",
+      "borough": "Barnet",
+      "children_in_ta": 3478,
+      "households_in_ta": 3031,
+      "households": 156679,
+      "ta_per_1000_households": 19.35,
+      "children_per_1000_households": 22.2,
+      "classrooms": 133,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 1635,
+      "pct_households_placed_elsewhere": 53.9,
+      "children_0_17": 91120,
+      "per_100_children": 3.82,
+      "quarters_missing": 1,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 2730
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2861
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 2805
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2678
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2565
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2515
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2495
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2396
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 2308
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 2326
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 2303
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 2253
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 2263
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 2316
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 2336
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 2414
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 2384
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 2500
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 2724
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 2934
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 3022
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 3136
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 3245
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 3366
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 3400
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 3478
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000013",
+      "borough": "Hammersmith and Fulham",
+      "children_in_ta": 1859,
+      "households_in_ta": 1453,
+      "households": 84945,
+      "ta_per_1000_households": 17.11,
+      "children_per_1000_households": 21.88,
+      "classrooms": 71,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 987,
+      "pct_households_placed_elsewhere": 67.9,
+      "children_0_17": 30229,
+      "per_100_children": 6.15,
+      "quarters_missing": 1,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 1872
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 1884
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 1840
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 1843
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 1737
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 1694
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 1671
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 1623
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 1621
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1583
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1588
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 1597
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1612
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1595
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1582
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1668
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1758
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1815
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1859
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1864
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1889
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1895
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1863
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1881
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1862
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1859
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000017",
+      "borough": "Hillingdon",
+      "children_in_ta": 2492,
+      "households_in_ta": 1577,
+      "households": 116641,
+      "ta_per_1000_households": 13.52,
+      "children_per_1000_households": 21.36,
+      "classrooms": 95,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 571,
+      "pct_households_placed_elsewhere": 36.2,
+      "children_0_17": 72642,
+      "per_100_children": 3.43,
+      "quarters_missing": 3,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 759
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 736
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 720
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 660
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 573
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 565
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 567
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 575
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 616
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 635
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 699
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 761
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 931
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 998
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1173
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1274
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1462
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1632
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1981
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1980
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1926
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1849
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 2708
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 2492
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000002",
+      "borough": "Barking and Dagenham",
+      "children_in_ta": 1601,
+      "households_in_ta": 1004,
+      "households": 76836,
+      "ta_per_1000_households": 13.07,
+      "children_per_1000_households": 20.84,
+      "classrooms": 61,
+      "bnb_children_over_6_weeks": 18,
+      "placed_in_another_area": 88,
+      "pct_households_placed_elsewhere": 8.8,
+      "children_0_17": 65362,
+      "per_100_children": 2.45,
+      "quarters_missing": 3,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 3601
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 3504
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2931
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 2854
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 2747
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 2644
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 2718
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 2628
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 2594
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 2535
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 2488
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 2408
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 2320
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 2248
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 2154
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 2092
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 2062
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1733
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1698
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 1704
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1712
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1633
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1632
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1601
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000019",
+      "borough": "Islington",
+      "children_in_ta": 1936,
+      "households_in_ta": 2030,
+      "households": 102912,
+      "ta_per_1000_households": 19.73,
+      "children_per_1000_households": 18.81,
+      "classrooms": 74,
+      "bnb_children_over_6_weeks": null,
+      "placed_in_another_area": 1269,
+      "pct_households_placed_elsewhere": 62.5,
+      "children_0_17": 34104,
+      "per_100_children": 5.68,
+      "quarters_missing": 2,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 1018
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 771
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 762
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 473
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 411
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 475
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 673
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 786
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 798
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 794
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 844
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 910
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 904
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 941
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1021
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1128
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1211
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1334
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1478
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1592
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 1658
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1722
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1806
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1838
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1936
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000016",
+      "borough": "Havering",
+      "children_in_ta": 1863,
+      "households_in_ta": 1320,
+      "households": 104736,
+      "ta_per_1000_households": 12.6,
+      "children_per_1000_households": 17.79,
+      "classrooms": 71,
+      "bnb_children_over_6_weeks": 11,
+      "placed_in_another_area": 213,
+      "pct_households_placed_elsewhere": 16.1,
+      "children_0_17": 63937,
+      "per_100_children": 2.91,
+      "quarters_missing": 0,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 1207
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 1184
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 1486
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 1222
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 1101
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 1111
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 1089
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 1101
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 1094
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1087
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1106
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 1150
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1204
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1262
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1304
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1394
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1476
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1515
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1551
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1637
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1732
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1820
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 1851
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1881
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1927
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1839
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1863
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000029",
+      "borough": "Sutton",
+      "children_in_ta": 1494,
+      "households_in_ta": 1099,
+      "households": 85146,
+      "ta_per_1000_households": 12.91,
+      "children_per_1000_households": 17.55,
+      "classrooms": 57,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 397,
+      "pct_households_placed_elsewhere": 36.1,
+      "children_0_17": 49529,
+      "per_100_children": 3.02,
+      "quarters_missing": 0,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 869
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 884
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 858
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 856
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 857
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 846
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 865
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 847
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 882
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 959
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 961
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 967
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 981
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1004
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1068
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1082
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1103
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1239
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1265
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1329
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1306
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1340
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 1386
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1444
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1477
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1480
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1494
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000021",
+      "borough": "Kingston upon Thames",
+      "children_in_ta": 1062,
+      "households_in_ta": 848,
+      "households": 68435,
+      "ta_per_1000_households": 12.39,
+      "children_per_1000_households": 15.52,
+      "classrooms": 41,
+      "bnb_children_over_6_weeks": 16,
+      "placed_in_another_area": 336,
+      "pct_households_placed_elsewhere": 39.6,
+      "children_0_17": 35928,
+      "per_100_children": 2.96,
+      "quarters_missing": 7,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 1246
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 1295
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 1296
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 1275
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 1364
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 1374
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1070
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1088
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1095
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1131
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1149
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1105
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1071
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1054
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1282
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1289
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1124
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1102
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1113
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1062
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000024",
+      "borough": "Merton",
+      "children_in_ta": 1141,
+      "households_in_ta": 721,
+      "households": 83819,
+      "ta_per_1000_households": 8.6,
+      "children_per_1000_households": 13.61,
+      "classrooms": 44,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 544,
+      "pct_households_placed_elsewhere": 75.5,
+      "children_0_17": 44777,
+      "per_100_children": 2.55,
+      "quarters_missing": 0,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 200
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 310
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 293
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 276
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 258
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 254
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 262
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 255
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 295
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 280
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 287
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 331
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 373
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 430
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 478
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 556
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 578
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 677
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 797
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 872
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 984
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 971
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 1020
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1051
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1078
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1137
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1141
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000007",
+      "borough": "Camden",
+      "children_in_ta": 1359,
+      "households_in_ta": 1356,
+      "households": 101608,
+      "ta_per_1000_households": 13.35,
+      "children_per_1000_households": 13.37,
+      "classrooms": 52,
+      "bnb_children_over_6_weeks": 2,
+      "placed_in_another_area": 911,
+      "pct_households_placed_elsewhere": 67.2,
+      "children_0_17": 32692,
+      "per_100_children": 4.16,
+      "quarters_missing": 7,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 627
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 618
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 644
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 614
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 553
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 522
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 541
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 523
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 508
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 519
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 509
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 487
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 525
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 605
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 610
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 626
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 654
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1150
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1258
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1359
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000006",
+      "borough": "Bromley",
+      "children_in_ta": 1645,
+      "households_in_ta": 1625,
+      "households": 138572,
+      "ta_per_1000_households": 11.73,
+      "children_per_1000_households": 11.87,
+      "classrooms": 63,
+      "bnb_children_over_6_weeks": null,
+      "placed_in_another_area": 1314,
+      "pct_households_placed_elsewhere": 80.9,
+      "children_0_17": 72343,
+      "per_100_children": 2.27,
+      "quarters_missing": 2,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 2132
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 2144
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 2129
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 1862
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 1758
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 1809
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 1893
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1950
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1873
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 1826
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1793
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 1806
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 1736
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 1729
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1658
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1697
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1751
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1827
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 1861
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 1832
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 1795
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 1785
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 1808
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 1711
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 1645
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000027",
+      "borough": "Richmond upon Thames",
+      "children_in_ta": 745,
+      "households_in_ta": 689,
+      "households": 82781,
+      "ta_per_1000_households": 8.32,
+      "children_per_1000_households": 9.0,
+      "classrooms": 29,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 519,
+      "pct_households_placed_elsewhere": 75.3,
+      "children_0_17": 42448,
+      "per_100_children": 1.76,
+      "quarters_missing": 3,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 298
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 275
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 263
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 269
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 264
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 272
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 294
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 328
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 370
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 415
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 453
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 484
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 515
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 534
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 554
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 564
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 568
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 578
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 600
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 622
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 644
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 675
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 700
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 745
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000018",
+      "borough": "Hounslow",
+      "children_in_ta": 967,
+      "households_in_ta": 521,
+      "households": 108379,
+      "ta_per_1000_households": 4.81,
+      "children_per_1000_households": 8.92,
+      "classrooms": 37,
+      "bnb_children_over_6_weeks": 1,
+      "placed_in_another_area": 182,
+      "pct_households_placed_elsewhere": 34.9,
+      "children_0_17": 64169,
+      "per_100_children": 1.51,
+      "quarters_missing": 11,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 951
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 971
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 966
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 1033
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 937
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 928
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 284
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 735
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 880
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 833
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 760
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 670
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 772
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 802
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 888
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 967
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000004",
+      "borough": "Bexley",
+      "children_in_ta": 532,
+      "households_in_ta": 275,
+      "households": 98370,
+      "ta_per_1000_households": 2.8,
+      "children_per_1000_households": 5.41,
+      "classrooms": 20,
+      "bnb_children_over_6_weeks": null,
+      "placed_in_another_area": 17,
+      "pct_households_placed_elsewhere": 6.2,
+      "children_0_17": 57460,
+      "per_100_children": 0.93,
+      "quarters_missing": 10,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 1573
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 1455
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 1310
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 1231
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 1173
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": null
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 946
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 1007
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 1027
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 1022
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 1006
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 921
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 830
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 751
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 658
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 616
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 560
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 532
+        }
+      ]
+    },
+    {
+      "ons_code": "E09000001",
+      "borough": "City of London",
+      "children_in_ta": 20,
+      "households_in_ta": 40,
+      "households": 7375,
+      "ta_per_1000_households": 5.42,
+      "children_per_1000_households": 2.71,
+      "classrooms": 1,
+      "bnb_children_over_6_weeks": 0,
+      "placed_in_another_area": 40,
+      "pct_households_placed_elsewhere": 100.0,
+      "children_0_17": 667,
+      "per_100_children": 3.0,
+      "quarters_missing": 0,
+      "history": [
+        {
+          "quarter": "2019 Q3",
+          "children_in_ta": 10
+        },
+        {
+          "quarter": "2019 Q4",
+          "children_in_ta": 11
+        },
+        {
+          "quarter": "2020 Q1",
+          "children_in_ta": 11
+        },
+        {
+          "quarter": "2020 Q2",
+          "children_in_ta": 11
+        },
+        {
+          "quarter": "2020 Q3",
+          "children_in_ta": 13
+        },
+        {
+          "quarter": "2020 Q4",
+          "children_in_ta": 11
+        },
+        {
+          "quarter": "2021 Q1",
+          "children_in_ta": 10
+        },
+        {
+          "quarter": "2021 Q2",
+          "children_in_ta": 6
+        },
+        {
+          "quarter": "2021 Q3",
+          "children_in_ta": 4
+        },
+        {
+          "quarter": "2021 Q4",
+          "children_in_ta": 3
+        },
+        {
+          "quarter": "2022 Q1",
+          "children_in_ta": 4
+        },
+        {
+          "quarter": "2022 Q2",
+          "children_in_ta": 9
+        },
+        {
+          "quarter": "2022 Q3",
+          "children_in_ta": 13
+        },
+        {
+          "quarter": "2022 Q4",
+          "children_in_ta": 18
+        },
+        {
+          "quarter": "2023 Q1",
+          "children_in_ta": 18
+        },
+        {
+          "quarter": "2023 Q2",
+          "children_in_ta": 21
+        },
+        {
+          "quarter": "2023 Q3",
+          "children_in_ta": 22
+        },
+        {
+          "quarter": "2023 Q4",
+          "children_in_ta": 19
+        },
+        {
+          "quarter": "2024 Q1",
+          "children_in_ta": 22
+        },
+        {
+          "quarter": "2024 Q2",
+          "children_in_ta": 20
+        },
+        {
+          "quarter": "2024 Q3",
+          "children_in_ta": 20
+        },
+        {
+          "quarter": "2024 Q4",
+          "children_in_ta": 20
+        },
+        {
+          "quarter": "2025 Q1",
+          "children_in_ta": 20
+        },
+        {
+          "quarter": "2025 Q2",
+          "children_in_ta": 18
+        },
+        {
+          "quarter": "2025 Q3",
+          "children_in_ta": 15
+        },
+        {
+          "quarter": "2025 Q4",
+          "children_in_ta": 20
+        },
+        {
+          "quarter": "2026 Q1",
+          "children_in_ta": 20
+        }
+      ]
+    }
+  ],
+  "data_quality": {
+    "borough_quarters_total": 891,
+    "borough_quarters_missing": 164,
+    "boroughs_with_any_gap": 29,
+    "boroughs_reporting_latest": 33
+  },
+  "sources": {
+    "temporary_accommodation": "MHCLG, Statutory homelessness detailed local authority tables (TA1), 2019 Q3 to 2026 Q1",
+    "class_size": "Department for Education, Schools, pupils and their characteristics 2025/26: average primary class size",
+    "class_size_value": 26.1,
+    "licence": "Open Government Licence v3.0",
+    "child_population": "ONS, Population estimates for England and Wales, mid-2025 (children aged 0-17)"
+  }
+}

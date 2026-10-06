@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+data/raw/
+data/processed/*_v1_raw.csv
+data/processed/*_flagged_rows.csv
+data/processed/ta_no_missing_target.csv

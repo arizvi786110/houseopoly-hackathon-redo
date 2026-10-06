@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Houseopoly: children in temporary accommodation in London</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#07080C; --panel:#0D0F15; --line:#23262F; --text:#ECEAF0; --muted:#8B90A1;
+  --mint:#19E3A0; --mint-dim:#0F5A44; --pink:#FF3D6E; --pink-dim:#5A1A2C;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#07080C; --panel:#0D0F15; --line:#23262F; --text:#ECEAF0; --muted:#8B90A1;
+    --mint:#19E3A0; --mint-dim:#0F5A44; --pink:#FF3D6E; --pink-dim:#5A1A2C;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#07080C; --panel:#0D0F15; --line:#23262F; --text:#ECEAF0; --muted:#8B90A1;
+  --mint:#19E3A0; --mint-dim:#0F5A44; --pink:#FF3D6E; --pink-dim:#5A1A2C;
+}
+:root[data-theme="light"]{
+  --bg:#F6F6F8; --panel:#FFFFFF; --line:#D9DBE1; --text:#0E1016; --muted:#5B6070;
+  --mint:#079E6E; --mint-dim:#BFEBDC; --pink:#D61F52; --pink-dim:#F7C9D6;
+}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0; background:var(--bg); color:var(--text);
+  font-family:"Sora",system-ui,-apple-system,"Segoe UI",sans-serif; font-size:16px; line-height:1.6}
+a{color:var(--mint)}
+button{font:inherit; color:inherit}
+:focus-visible{outline:2px solid var(--mint); outline-offset:3px}
+[hidden]{display:none !important}
+.wrap{max-width:62rem; margin:0 auto; padding:0 1.25rem}
+.display{font-family:"Anton","Impact","Arial Narrow",sans-serif; font-weight:400; text-transform:uppercase; letter-spacing:.005em; line-height:.95}
+.label{font-size:.68rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--mint)}
+.label.plain{color:var(--muted)}
+.muted{color:var(--muted)}
+.small{font-size:.8rem}
+
+/* Header */
+header.top{position:sticky; top:env(safe-area-inset-top,0px); z-index:10; background:var(--bg); border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex; align-items:center; justify-content:space-between; gap:1rem; height:56px}
+.logo{display:flex; align-items:center; gap:.5rem; text-decoration:none; color:var(--text)}
+.logo b{display:grid; place-items:center; width:26px; height:26px; background:var(--mint); color:#07080C; font-family:"Anton",sans-serif; font-weight:400; font-size:1rem}
+.logo span{font-family:"Anton",sans-serif; font-size:1.05rem; letter-spacing:.02em}
+nav.tabs{display:flex; gap:1.4rem}
+nav.tabs a{font-size:.68rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); text-decoration:none; padding:.4rem 0}
+nav.tabs a[aria-current="page"]{color:var(--mint)}
+@media (max-width:34rem){ nav.tabs{gap:.9rem} nav.tabs a{font-size:.6rem; letter-spacing:.12em} .logo span{display:none} }
+
+section.block{padding:3.5rem 0; border-bottom:1px solid var(--line)}
+h1.display{font-size:clamp(3rem,10vw,6.5rem); margin:.6rem 0 1rem}
+h2.display{font-size:clamp(2rem,6vw,3.4rem); margin:.4rem 0 .8rem}
+.lede{max-width:36rem; color:var(--muted); font-size:1.02rem}
+.btn{display:inline-flex; align-items:center; gap:.5rem; padding:.8rem 1.2rem; border:1px solid var(--mint); background:transparent; color:var(--mint);
+  font-size:.72rem; font-weight:700; letter-spacing:.16em; text-transform:uppercase; cursor:pointer; text-decoration:none}
+.btn.solid{background:var(--mint); color:#07080C}
+.btn:disabled{opacity:.35; cursor:not-allowed}
+.btnrow{display:flex; flex-wrap:wrap; gap:.75rem; align-items:center; margin-top:1rem}
+.linkbtn{background:none; border:0; padding:0; color:var(--muted); text-decoration:underline; text-underline-offset:3px; cursor:pointer; font-size:.85rem}
+
+/* Hero */
+.hero{padding:4.5rem 0 3.5rem}
+.bignum{font-family:"Anton",sans-serif; font-size:clamp(5rem,20vw,12rem); line-height:.9; color:var(--mint); font-variant-numeric:tabular-nums}
+.hero .row{display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); gap:2rem; align-items:end; margin-top:1rem}
+.side{border-left:2px solid var(--pink); padding-left:1rem}
+.side b{display:block; font-family:"Anton",sans-serif; font-weight:400; font-size:2.6rem; line-height:1; color:var(--pink)}
+@media (max-width:44rem){ .hero .row{grid-template-columns:1fr} }
+
+/* Panels and charts */
+.panel{border:1px solid var(--line); background:var(--panel); padding:1rem}
+svg text{font-family:"Sora",sans-serif}
+.chart{width:100%; height:auto; display:block}
+#draw{touch-action:none; cursor:crosshair; user-select:none; -webkit-user-select:none}
+.legend{display:flex; flex-wrap:wrap; gap:1.2rem; font-size:.78rem; color:var(--muted); margin-top:.6rem}
+.legend i{display:inline-block; width:18px; height:3px; vertical-align:middle; margin-right:.4rem}
+.reveal-text{margin-top:1.4rem; max-width:44rem}
+.reveal-text p{margin:.4rem 0}
+.reveal-text .verdict{font-family:"Anton",sans-serif; font-size:clamp(1.5rem,4vw,2.2rem); line-height:1.1; text-transform:uppercase}
+
+/* Stat grid (like the original's bordered boxes) */
+.stats{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border:1px solid var(--line); margin-top:1.6rem}
+.stats > div{padding:1.2rem 1.3rem; border-right:1px solid var(--line); border-bottom:1px solid var(--line)}
+.stats > div:nth-child(2n){border-right:0}
+.stats > div:nth-last-child(-n+2){border-bottom:0}
+.stat{font-family:"Anton",sans-serif; font-size:clamp(2rem,6vw,3rem); line-height:1; margin:.5rem 0 .4rem; font-variant-numeric:tabular-nums}
+.stat.pink{color:var(--pink)} .stat.mint{color:var(--mint)}
+@media (max-width:30rem){ .stats{grid-template-columns:1fr} .stats > div{border-right:0} .stats > div:nth-last-child(2){border-bottom:1px solid var(--line)} }
+
+/* Borough page */
+.pick{display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:1.5rem; align-items:start; margin-top:1.5rem}
+@media (max-width:48rem){ .pick{grid-template-columns:1fr} }
+#map path{stroke:var(--line); stroke-width:1; cursor:pointer; transition:opacity .15s, fill .6s}
+#map path:hover{opacity:.8}
+#map path.selected{stroke:var(--text); stroke-width:2.5}
+.maptip{min-height:1.6em; font-size:.85rem; color:var(--muted); margin-top:.5rem}
+.scale{display:flex; align-items:center; gap:.5rem; font-size:.72rem; color:var(--muted); margin-top:.4rem}
+.scale span.bar{flex:1; height:8px; background:linear-gradient(90deg,var(--mint-dim),var(--mint))}
+select{width:100%; padding:.8rem 1rem; background:var(--bg); color:var(--text); border:1px solid var(--mint);
+  font-family:"Anton",sans-serif; font-size:1.5rem; text-transform:uppercase; letter-spacing:.01em; border-radius:0}
+.sizes{display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0}
+.sizes button{padding:.5rem .8rem; border:1px solid var(--line); background:transparent; cursor:pointer; font-size:.78rem}
+.sizes button[aria-pressed="true"]{border-color:var(--mint); color:var(--mint)}
+.desks{display:grid; gap:6px; margin-top:.5rem}
+.desk{aspect-ratio:1.25; border:1px solid var(--line); background:transparent; padding:0; cursor:pointer; position:relative}
+.desk.guess{border-color:var(--mint); box-shadow:inset 0 0 0 1px var(--mint)}
+.desk.real{background:var(--pink); border-color:var(--pink)}
+.desk.real.guess{box-shadow:inset 0 0 0 3px var(--mint)}
+.desks.tiny{gap:2px} .desks.tiny .desk{aspect-ratio:1}
+.guesscount{font-size:.9rem; color:var(--muted); min-height:1.6em; margin-top:.7rem}
+.result .verdict{font-family:"Anton",sans-serif; font-size:clamp(1.6rem,4.5vw,2.4rem); line-height:1.1; text-transform:uppercase; margin:1rem 0 .4rem}
+.keyline{display:flex; flex-wrap:wrap; gap:1.2rem; font-size:.78rem; color:var(--muted); margin-top:.7rem}
+.keyline i{display:inline-block; width:14px; height:11px; margin-right:.4rem; vertical-align:-1px; border:1px solid var(--line)}
+
+.rooms{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.5rem; margin-top:.6rem}
+@media (max-width:44rem){ .rooms{grid-template-columns:1fr} }
+.room{border:1px solid var(--line); background:var(--panel); padding:1rem; margin:0}
+.room figcaption{display:flex; justify-content:space-between; gap:.6rem; align-items:baseline; margin-bottom:.7rem}
+.room .count{font-family:"Anton",sans-serif; font-size:1.6rem; line-height:1}
+.room .count.pink{color:var(--pink)}
+.desk.moved{transition:transform .5s ease-out, background-color .6s, border-color .6s; transform:translateY(-3px);
+  background:transparent !important; border:1.5px dashed var(--pink) !important}
+.desk.moved.guess{box-shadow:inset 0 0 0 1px var(--mint) !important}
+.desk.forecast{border:1px dashed var(--pink); background:var(--pink-dim)}
+.next{margin-top:2.2rem}
+.next .stats{margin-top:1rem}
+.room.solo{max-width:36rem}
+
+/* Sources page */
+.method{max-width:44rem}
+.method h3{font-family:"Anton",sans-serif; font-weight:400; text-transform:uppercase; font-size:1.5rem; margin:2rem 0 .4rem}
+.method p,.method li{color:var(--muted)}
+.method strong{color:var(--text); font-weight:600}
+table{border-collapse:collapse; width:100%; margin:.8rem 0; font-size:.88rem}
+td,th{text-align:left; padding:.55rem .6rem; border-bottom:1px solid var(--line)}
+th{font-size:.66rem; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:700}
+td.num{font-variant-numeric:tabular-nums}
+tr.win td{color:var(--mint)}
+
+footer{padding:2.5rem 0 3rem; font-size:.8rem; color:var(--muted)}
+@media (prefers-reduced-motion:reduce){ *{transition:none !important; animation:none !important} }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#numbers"><b>H</b><span>HOUSEOPOLY</span></a>
+    <nav class="tabs" aria-label="Pages">
+      <a href="#numbers" data-page="numbers">The numbers</a>
+      <a href="#borough" data-page="borough">Your borough</a>
+      <a href="#sources" data-page="sources">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ============================== PAGE 1 ============================== -->
+<div id="page-numbers" data-page-view="numbers">
+  <section class="hero">
+    <div class="wrap">
+      <div class="label" id="heroLabel"></div>
+      <h1 class="display" id="heroHead"></h1>
+      <div class="row">
+        <div>
+          <div class="bignum" id="heroNum" aria-live="polite">0</div>
+          <p id="heroText" style="max-width:30rem; margin:.6rem 0 0"></p>
+          <p class="small muted" id="heroSource"></p>
+        </div>
+        <div class="side">
+          <b id="heroLow"></b>
+          <span class="small muted" id="heroLowText"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="guessHead">
+    <div class="wrap">
+      <div class="label">Draw your guess</div>
+      <h2 class="display" id="guessHead">Up, down or flat?</h2>
+      <p class="lede">Since 2019, what do you think happened to the number of children in temporary accommodation in London? Drag across the chart to draw your line up to March 2026, then reveal what actually happened.</p>
+      <div class="panel" style="margin-top:1.4rem">
+        <svg id="draw" class="chart" viewBox="0 0 800 420" role="img" aria-label="Chart where you draw your guess of children in temporary accommodation from 2019 to 2026"></svg>
+        <div class="legend" id="drawLegend">
+          <span><i style="background:var(--mint)"></i>Your guess</span>
+          <span hidden data-after><i style="background:var(--text)"></i>What happened</span>
+          <span hidden data-after><i style="background:var(--pink)"></i>Forecast if current trends continue</span>
+        </div>
+      </div>
+      <div class="btnrow">
+        <button class="btn solid" id="revealBtn" disabled>Reveal what happened</button>
+        <button class="btn" id="redrawBtn" hidden>Draw again</button>
+        <button class="linkbtn" id="skipBtn">Skip and show me</button>
+      </div>
+      <p class="small muted" id="drawHint" style="margin-top:.6rem">Draw all the way to March 2026 to reveal.</p>
+      <div class="reveal-text" id="revealText" hidden aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="bnbHead">
+    <div class="wrap">
+      <div class="label">The six-week limit</div>
+      <h2 class="display" id="bnbHead">Beyond six weeks in a B&amp;B</h2>
+      <p class="lede" id="bnbText"></p>
+      <div class="panel" style="margin-top:1.4rem">
+        <svg id="bnb" class="chart" viewBox="0 0 800 300" role="img"></svg>
+      </div>
+      <p class="small muted" style="margin-top:.6rem">Households with children living in B&amp;B accommodation for more than six weeks, London, at the end of each quarter.</p>
+    </div>
+  </section>
+
+  <section class="block" style="border-bottom:0">
+    <div class="wrap">
+      <h2 class="display">How does your borough compare?</h2>
+      <p class="lede">See your borough's classroom two years ago, then guess how it looks now.</p>
+      <div class="btnrow"><a class="btn solid" href="#borough">Explore your borough</a></div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================== PAGE 2 ============================== -->
+<div id="page-borough" data-page-view="borough" hidden>
+  <section class="block">
+    <div class="wrap">
+      <div class="label">Your borough</div>
+      <h1 class="display" style="font-size:clamp(2.6rem,8vw,5rem)">Out of every 100 children</h1>
+      <p class="lede">Pick a borough on the map. You'll see its classroom from two years ago, then guess how full it is now.</p>
+      <div class="pick">
+        <div class="panel">
+          <svg id="map" class="chart" role="img" aria-label="Map of London's boroughs. Select a borough to make your guess."></svg>
+          <div class="maptip" id="mapTip">Tap a borough to start.</div>
+          <div class="scale" id="mapScale" hidden><span>Fewer</span><span class="bar"></span><span>More</span><span style="margin-left:.4rem">children per 100 (boroughs you've revealed)</span></div>
+        </div>
+        <div>
+          <label class="label plain" for="boroughSelect">Choose a borough</label>
+          <select id="boroughSelect" style="margin-top:.5rem"><option value="" disabled selected>Select a borough</option></select>
+          <p class="small muted" style="margin-top:.8rem" id="pickNote"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="guessBlock" aria-labelledby="deskHead">
+    <div class="wrap">
+      <div class="label" id="deskLabel"></div>
+      <h2 class="display" id="deskHead">Fuller or emptier than two years ago?</h2>
+      <p class="lede" id="deskLede"></p>
+      <div class="sizes" role="group" aria-label="Group size">
+        <button data-size="30" aria-pressed="false">A class of 30</button>
+        <button data-size="100" aria-pressed="true">A year group of 100</button>
+        <button data-size="1000" aria-pressed="false">A school of 1,000</button>
+      </div>
+      <div class="rooms">
+        <figure class="room">
+          <figcaption><span class="label plain" id="thenCap">March 2024</span><span class="count pink" id="thenCount"></span></figcaption>
+          <div class="desks" id="desksThen" aria-hidden="true"></div>
+          <p class="small muted" id="thenNote" style="margin:.6rem 0 0"></p>
+        </figure>
+        <figure class="room">
+          <figcaption><span class="label" id="nowCap">March 2026: your guess</span><span class="count pink" id="nowCount"></span></figcaption>
+          <div class="desks" id="desks" role="group" aria-label="Desks for March 2026. Tap to set your guess."></div>
+          <div class="guesscount" id="guessCount" aria-live="polite">Tap a desk to fill up to it.</div>
+        </figure>
+      </div>
+      <div class="btnrow">
+        <button class="btn solid" id="deskReveal" disabled>Reveal March 2026</button>
+      </div>
+      <div class="keyline">
+        <span><i style="border-color:var(--mint); box-shadow:inset 0 0 0 1px var(--mint)"></i>Your guess</span>
+        <span><i style="background:var(--pink); border-color:var(--pink)"></i>Children in temporary accommodation</span>
+        <span><i style="border:1px dashed var(--pink)"></i>Placed outside the borough</span>
+      </div>
+      <div class="result" id="deskResult" hidden aria-live="polite"></div>
+      <div class="result" id="movedResult" hidden aria-live="polite"></div>
+
+      <div class="next" id="nextBlock" hidden>
+        <div class="label">London next</div>
+        <h2 class="display" style="font-size:clamp(1.8rem,5vw,2.8rem)">And in two years?</h2>
+        <p class="lede" id="nextLede"></p>
+        <figure class="room solo">
+          <figcaption><span class="label plain" id="nextCap"></span><span class="count pink" id="nextCount"></span></figcaption>
+          <div class="desks" id="desksNext" aria-hidden="true"></div>
+          <p class="small muted" id="nextNote" style="margin:.6rem 0 0"></p>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="detailsBlock" hidden style="border-bottom:0" aria-labelledby="detailHead">
+    <div class="wrap">
+      <div class="label">March 2026</div>
+      <h2 class="display" id="detailHead"></h2>
+      <div class="stats" id="stats"></div>
+      <div class="panel" style="margin-top:1.6rem">
+        <div class="label plain">Children in temporary accommodation over time</div>
+        <svg id="spark" class="chart" viewBox="0 0 800 220" role="img" style="margin-top:.6rem"></svg>
+        <p class="small muted" id="gapNote" style="margin:.4rem 0 0"></p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ============================== PAGE 3 ============================== -->
+<div id="page-sources" data-page-view="sources" hidden>
+  <section class="block" style="border-bottom:0">
+    <div class="wrap method" id="method"></div>
+  </section>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">Built by Aalia as a rebuild of our House London hackathon project. Data cleaned with my own Python pipeline; data quality checks run with Truero.</div>
+</footer>
+
+<script id="site-data" type="application/json">__SITE_DATA__</script>
+<script id="map-data" type="application/json">__MAP_DATA__</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById("site-data").textContent);
+  const M = JSON.parse(document.getElementById("map-data").textContent);
+  const $ = id => document.getElementById(id);
+  const fmt = n => n == null ? "Not published" : Math.round(n).toLocaleString("en-GB");
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+  const qLabel = q => { const [y, n] = q.split(" Q"); return ({1:"March",2:"June",3:"September",4:"December"})[n] + " " + y; };
+  const H = D.headline;
+  const p1 = v => v == null ? "Not published" : (Math.round(v * 10) / 10).toFixed(1);   // 13.78 -> "13.8"
+  const oneIn = Math.round(100 / H.per_100_children);
+
+  // ---------------------------------------------------------------- pages
+  function show(page){
+    if (!["numbers","borough","sources"].includes(page)) page = "numbers";
+    document.querySelectorAll("[data-page-view]").forEach(v => v.hidden = v.dataset.pageView !== page);
+    document.querySelectorAll("nav.tabs a").forEach(a => a.setAttribute("aria-current", a.dataset.page === page ? "page" : "false"));
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener("hashchange", () => show(location.hash.slice(1)));
+  show(location.hash.slice(1));
+
+  // ---------------------------------------------------------------- hero
+  $("heroLabel").textContent = "Children in temporary accommodation, London";
+  $("heroHead").innerHTML = "One in every " + oneIn + "<br>children.";
+  $("heroText").textContent = "children were living in temporary accommodation in London in " + qLabel(H.quarter) +
+    ": about " + p1(H.per_100_children) + " in every 100.";
+  $("heroSource").textContent = "Sources: MHCLG temporary accommodation tables; ONS mid-2025 population estimates.";
+  $("heroLow").textContent = "+" + H.change_since_low_pct + "%";
+  $("heroLowText").textContent = "since the lowest point, " + fmt(H.low_children) + " children in " + qLabel(H.low_quarter) + ".";
+  (function countUp(){
+    const target = H.children_in_ta, node = $("heroNum");
+    if (reduced) { node.textContent = fmt(target); return; }
+    const t0 = performance.now(), dur = 1400;
+    (function step(t){ const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+      node.textContent = fmt(target * e); if (p < 1) requestAnimationFrame(step); })(t0);
+  })();
+
+  // ---------------------------------------------------------------- draw your guess
+  const S = D.london_series, F = D.forecast, nH = S.length, nAll = nH + F.length;
+  const X0 = 64, X1 = 780, Y0 = 24, Y1 = 380, YMIN = 60000, YMAX = 140000;
+  const xi = i => X0 + (X1 - X0) * i / (nAll - 1);
+  const yv = v => Y1 - (Y1 - Y0) * (v - YMIN) / (YMAX - YMIN);
+  const vy = y => YMIN + (Y1 - y) / (Y1 - Y0) * (YMAX - YMIN);
+  const svg = $("draw");
+
+  for (let v = YMIN; v <= YMAX; v += 20000) {
+    el("line", {x1:X0, x2:X1, y1:yv(v), y2:yv(v), stroke:"var(--line)"}, svg);
+    el("text", {x:X0 - 8, y:yv(v) + 4, "text-anchor":"end", "font-size":12, fill:"var(--muted)"}, svg).textContent = (v/1000) + "k";
+  }
+  const allQ = S.map(s => s.quarter).concat(F.map(f => f.quarter));
+  allQ.forEach((q, i) => { if (q.endsWith("Q1")) el("text", {x:xi(i), y:Y1 + 24, "text-anchor":"middle", "font-size":12, fill:"var(--muted)"}, svg).textContent = q.slice(0, 4); });
+  // the future, shaded
+  el("rect", {x:xi(nH - 1), y:Y0, width:X1 - xi(nH - 1), height:Y1 - Y0, fill:"var(--line)", opacity:.25}, svg);
+  el("line", {x1:xi(nH - 1), x2:xi(nH - 1), y1:Y0, y2:Y1, stroke:"var(--muted)", "stroke-dasharray":"3 4"}, svg);
+  el("text", {x:xi(nH - 1) + 8, y:Y0 + 16, "font-size":12, fill:"var(--muted)"}, svg).textContent = "March 2026";
+  const bandGroup = el("g", {opacity:0}, svg);
+  const guessPath = el("path", {fill:"none", stroke:"var(--mint)", "stroke-width":3, "stroke-linecap":"round", "stroke-linejoin":"round"}, svg);
+  const realPath = el("path", {fill:"none", stroke:"var(--text)", "stroke-width":3.5, "stroke-linejoin":"round"}, svg);
+  const fcPath = el("path", {fill:"none", stroke:"var(--pink)", "stroke-width":3, "stroke-dasharray":"8 6", opacity:0}, svg);
+  el("circle", {cx:xi(0), cy:yv(S[0].children_in_ta), r:5, fill:"var(--text)"}, svg);
+  el("text", {x:xi(0) + 10, y:yv(S[0].children_in_ta) - 10, "font-size":12, fill:"var(--text)"}, svg).textContent = fmt(S[0].children_in_ta) + " in " + qLabel(S[0].quarter);
+  const hint = el("text", {x:(X0 + xi(nH - 1)) / 2, y:Y1 - 30, "text-anchor":"middle", "font-size":15, fill:"var(--mint)", opacity:.9}, svg);
+  hint.textContent = "Draw from the dot to March 2026";
+
+  let guess = new Array(nH).fill(null); guess[0] = S[0].children_in_ta;
+  let drawing = false, lastIdx = 0, revealed = false;
+
+  function svgPoint(evt){
+    const r = svg.getBoundingClientRect();
+    return { x: (evt.clientX - r.left) / r.width * 800, y: (evt.clientY - r.top) / r.height * 420 };
+  }
+  function setGuess(evt){
+    const p = svgPoint(evt);
+    let i = Math.round((p.x - X0) / (X1 - X0) * (nAll - 1));
+    i = Math.max(1, Math.min(nH - 1, i));
+    const v = Math.max(YMIN, Math.min(YMAX, vy(p.y)));
+    // fill any skipped quarters in between by straight-line interpolation
+    const from = guess[lastIdx] != null ? lastIdx : 0;
+    const a = Math.min(from, i), b = Math.max(from, i);
+    const va = a === from ? guess[from] : v, vb = b === from ? guess[from] : v;
+    for (let k = a + 1; k < b; k++) guess[k] = va + (vb - va) * (k - a) / (b - a);
+    guess[i] = v; lastIdx = i;
+    renderGuess();
+  }
+  function pathFrom(points){ return points.map((p, k) => (k ? "L" : "M") + p[0].toFixed(1) + "," + p[1].toFixed(1)).join(""); }
+  function renderGuess(){
+    const pts = []; for (let i = 0; i < nH; i++) { if (guess[i] == null) break; pts.push([xi(i), yv(guess[i])]); }
+    guessPath.setAttribute("d", pts.length > 1 ? pathFrom(pts) : "");
+    const done = guess.every(g => g != null);
+    $("revealBtn").disabled = !done;
+    $("drawHint").textContent = done ? "Ready. Reveal what happened, or keep adjusting your line." : "Draw all the way to March 2026 to reveal.";
+    hint.setAttribute("opacity", pts.length > 2 ? 0 : .9);
+  }
+  svg.addEventListener("pointerdown", e => { if (revealed) return; drawing = true; svg.setPointerCapture(e.pointerId); if (guess[1] == null) lastIdx = 0; setGuess(e); });
+  svg.addEventListener("pointermove", e => { if (drawing && !revealed) setGuess(e); });
+  ["pointerup","pointercancel","pointerleave"].forEach(t => svg.addEventListener(t, () => drawing = false));
+
+  function animateDraw(path, dur, done){
+    if (reduced) { if (done) done(); return; }
+    const len = path.getTotalLength(); path.style.strokeDasharray = len; path.style.strokeDashoffset = len;
+    path.getBoundingClientRect();
+    path.style.transition = "stroke-dashoffset " + dur + "ms ease-out"; path.style.strokeDashoffset = 0;
+    setTimeout(() => { path.style.transition = ""; path.style.strokeDasharray = ""; path.style.strokeDashoffset = ""; if (done) done(); }, dur + 30);
+  }
+  function reveal(skipped){
+    revealed = true; hint.setAttribute("opacity", 0);
+    realPath.setAttribute("d", pathFrom(S.map((s, i) => [xi(i), yv(s.children_in_ta)])));
+    const last = [xi(nH - 1), yv(S[nH - 1].children_in_ta)];
+    fcPath.setAttribute("d", pathFrom([last].concat(F.map((f, k) => [xi(nH + k), yv(f.forecast)]))));
+    const band = (lo, hi, op) => {
+      const top = [last].concat(F.map((f, k) => [xi(nH + k), yv(Math.min(YMAX, f[hi]))]));
+      const bot = F.map((f, k) => [xi(nH + k), yv(Math.max(YMIN, f[lo]))]).reverse().concat([last]);
+      el("path", {d: pathFrom(top.concat(bot)) + "Z", fill:"var(--pink)", opacity:op}, bandGroup);
+    };
+    bandGroup.innerHTML = ""; band("low_95", "high_95", .12); band("low_80", "high_80", .22);
+    animateDraw(realPath, 1800, () => {
+      bandGroup.style.transition = "opacity .6s"; bandGroup.setAttribute("opacity", 1);
+      fcPath.style.transition = "opacity .6s"; fcPath.setAttribute("opacity", 1);
+    });
+    document.querySelectorAll("[data-after]").forEach(n => n.hidden = false);
+    $("revealBtn").hidden = true; $("skipBtn").hidden = true; $("drawHint").hidden = true;
+    $("redrawBtn").hidden = skipped;
+    const actual = S[nH - 1].children_in_ta;
+    let verdict = "";
+    if (!skipped) {
+      const g = guess[nH - 1], diff = Math.round(g - actual);
+      verdict = Math.abs(diff) < actual * 0.03
+        ? "Your line ended almost exactly right."
+        : "Your line ended at " + fmt(g) + ". The real figure was " + fmt(actual) + ".";
+    }
+    $("revealText").innerHTML =
+      (verdict ? "<p class='verdict'>" + verdict + "</p>" : "") +
+      "<p>The number fell to its lowest point, <strong>" + fmt(H.low_children) + "</strong>, in " + qLabel(H.low_quarter) +
+      ". Since then it has risen <strong>" + H.change_since_low_pct + "%</strong>, to " + fmt(actual) + " in " + qLabel(H.quarter) + ".</p>" +
+      "<p>If current trends continue, about <strong>" + fmt(H.forecast_end_children) + "</strong> children could be in temporary accommodation by " +
+      qLabel(H.forecast_end_quarter) + " (80% range: " + fmt(H.forecast_end_low_80) + " to " + fmt(H.forecast_end_high_80) + ").</p>" +
+      "<p class='small muted'>Forecast: " + D.forecast_model.model + ", tested on past data. See Sources for how it works.</p>";
+    $("revealText").hidden = false;
+  }
+  $("revealBtn").addEventListener("click", () => reveal(false));
+  $("skipBtn").addEventListener("click", () => reveal(true));
+  $("redrawBtn").addEventListener("click", () => {
+    revealed = false; guess = new Array(nH).fill(null); guess[0] = S[0].children_in_ta; lastIdx = 0;
+    realPath.setAttribute("d", ""); fcPath.setAttribute("opacity", 0); bandGroup.setAttribute("opacity", 0); bandGroup.innerHTML = "";
+    document.querySelectorAll("[data-after]").forEach(n => n.hidden = true);
+    $("revealText").hidden = true; $("redrawBtn").hidden = true;
+    $("revealBtn").hidden = false; $("skipBtn").hidden = false; $("drawHint").hidden = false;
+    renderGuess();
+  });
+  renderGuess();
+
+  // ---------------------------------------------------------------- B&B chart
+  (function(){
+    const B = D.bnb_over_6_weeks, s = $("bnb");
+    $("bnbText").textContent = "Families with children aren't supposed to stay in B&Bs for more than six weeks. In London, the number peaked at " +
+      fmt(B.peak_families) + " in " + qLabel(B.peak_quarter) + " and has fallen to " + fmt(B.latest_families) +
+      ", even as the total number of children in temporary accommodation kept rising.";
+    s.setAttribute("aria-label", "Bar chart: families with children in B&Bs beyond six weeks, peaking at " + B.peak_families + " in " + qLabel(B.peak_quarter));
+    const max = Math.max(...S.map(r => r.bnb_children_over_6_weeks || 0)) * 1.15, x0 = 50, x1 = 785, y0 = 30, y1 = 260;
+    const bw = (x1 - x0) / S.length;
+    [0, 500, 1000, 1500, 2000].filter(v => v <= max).forEach(v => {
+      const y = y1 - (y1 - y0) * v / max;
+      el("line", {x1:x0, x2:x1, y1:y, y2:y, stroke:"var(--line)"}, s);
+      el("text", {x:x0 - 8, y:y + 4, "text-anchor":"end", "font-size":12, fill:"var(--muted)"}, s).textContent = v.toLocaleString("en-GB");
+    });
+    S.forEach((r, i) => {
+      const v = r.bnb_children_over_6_weeks; if (v == null) return;
+      const h = (y1 - y0) * v / max, peak = r.quarter === B.peak_quarter;
+      el("rect", {x:x0 + i * bw + bw * .15, y:y1 - h, width:bw * .7, height:h, fill: peak ? "var(--pink)" : "var(--mint-dim)"}, s);
+      if (peak) el("text", {x:x0 + i * bw + bw / 2, y:y1 - h - 10, "text-anchor":"middle", "font-size":13, "font-weight":700, fill:"var(--pink)"}, s).textContent = fmt(v);
+      if (r.quarter.endsWith("Q1")) el("text", {x:x0 + i * bw + bw / 2, y:y1 + 22, "text-anchor":"middle", "font-size":12, fill:"var(--muted)"}, s).textContent = r.quarter.slice(0, 4);
+    });
+    const lastV = S[S.length - 1].bnb_children_over_6_weeks, lh = (y1 - y0) * lastV / max;
+    el("text", {x:x0 + (S.length - .5) * bw, y:y1 - lh - 10, "text-anchor":"middle", "font-size":13, fill:"var(--text)"}, s).textContent = fmt(lastV);
+  })();
+
+  // ---------------------------------------------------------------- borough page
+  const BOR = D.boroughs_latest.slice().sort((a, b) => a.borough.localeCompare(b.borough));
+  const byCode = Object.fromEntries(BOR.map(b => [b.ons_code, b]));
+  const maxP = Math.max(...BOR.map(b => b.per_100_children || 0));
+  const map = $("map"); map.setAttribute("viewBox", "0 0 " + M.w + " " + M.h);
+  const mint = getComputedStyle(document.documentElement);
+  function shade(p){ // blend from mint-dim to mint by share of the maximum
+    const t = Math.sqrt((p || 0) / maxP);
+    return "color-mix(in srgb, var(--mint) " + Math.round(15 + 85 * t) + "%, var(--mint-dim))";
+  }
+  Object.entries(M.paths).forEach(([code, d]) => {
+    const b = byCode[code]; if (!b) return;
+    const p = el("path", {d, fill: "var(--panel)", "data-code": code, tabindex: 0, role: "button",
+      "aria-label": b.borough}, map);
+    p.addEventListener("click", () => select(code, true));
+    p.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(code, true); } });
+    p.addEventListener("mouseenter", () => $("mapTip").textContent = b.borough + (revealedSet.has(code) ? ": " + p1(b.per_100_children) + " in every 100 children" : ""));
+    p.addEventListener("mouseleave", () => $("mapTip").textContent = current ? byCode[current].borough + " selected." : "Tap a borough to start.");
+  });
+  const sel = $("boroughSelect");
+  BOR.forEach(b => { const o = document.createElement("option"); o.value = b.ons_code; o.textContent = b.borough; sel.appendChild(o); });
+  sel.addEventListener("change", () => select(sel.value, true));
+  $("pickNote").textContent = "Figures for March 2026, when all 33 boroughs reported. You get one guess per borough.";
+
+  let current = null, size = 100, deskGuess = 0;
+  const revealedSet = new Set(), guesses = {};   // one guess per borough: code -> {guess, size}
+  const THEN_Q = "2024 Q1";
+  const LON_POP = H.london_children_0_17;
+  const lonThen = (S.find(r => r.quarter === THEN_Q) || {}).children_in_ta;
+
+  var select = function(code, scroll){
+    current = code; sel.value = code;
+    map.querySelectorAll("path").forEach(p => p.classList.toggle("selected", p.dataset.code === code));
+    const sp = map.querySelector('[data-code="' + code + '"]'); if (sp) map.appendChild(sp);
+    $("mapTip").textContent = byCode[code].borough + " selected.";
+    $("guessBlock").hidden = false;
+    renderRooms(); renderDetails(); $("detailsBlock").hidden = !revealedSet.has(code);
+    if (scroll) $("guessBlock").scrollIntoView({behavior: reduced ? "auto" : "smooth"});
+  };
+
+  // The comparison quarter: March 2024, or the nearest quarter the borough reported
+  function thenPoint(b){
+    const h = b.history, target = h.findIndex(r => r.quarter === THEN_Q);
+    for (let d = 0; d <= 2; d++) {          // no further than six months either side
+      for (const i of [target - d, target + d]) {
+        if (i >= 0 && i < h.length && h[i].children_in_ta != null && h[i].quarter !== h[h.length - 1].quarter) return h[i];
+      }
+    }
+    return null;
+  }
+  const per100 = (children, pop) => (children == null || !pop) ? null : children / pop * 100;
+  const desksFor = p => p == null ? 0 : Math.round(p * size / 100);
+  const N = () => size.toLocaleString("en-GB");
+
+  function buildDesks(box, count, interactive, n){
+    n = n || size;
+    box.innerHTML = "";
+    const cols = n === 30 ? 6 : n === 100 ? 10 : 40;
+    box.style.gridTemplateColumns = "repeat(" + cols + ", minmax(0,1fr))";
+    box.classList.toggle("tiny", n === 1000);
+    for (let i = 0; i < n; i++) {
+      const d = document.createElement(interactive ? "button" : "span");
+      d.className = "desk" + (!interactive && i < count ? " real" : "");
+      if (interactive) { d.type = "button"; d.setAttribute("aria-label", "Guess " + (i + 1)); d.dataset.i = i; }
+      box.appendChild(d);
+    }
+  }
+
+  function renderRooms(){
+    const b = byCode[current], tp = thenPoint(b);
+    const thenP = tp ? per100(tp.children_in_ta, b.children_0_17) : null, thenN = desksFor(thenP);
+    $("deskLabel").textContent = b.borough;
+    $("thenCap").textContent = tp ? qLabel(tp.quarter) : "March 2024";
+    $("thenCount").textContent = tp ? thenN + " in " + N() : "";
+    buildDesks($("desksThen"), thenN, false);
+    $("thenNote").textContent = !tp ? b.borough + " didn't report figures around March 2024, so there's no comparison for this borough." :
+      (tp.quarter === THEN_Q ? fmt(tp.children_in_ta) + " children." : "Nearest quarter " + b.borough + " reported. " + fmt(tp.children_in_ta) + " children.");
+    $("deskLede").textContent = tp
+      ? "This is " + b.borough + " in " + qLabel(tp.quarter) + ": " + thenN + " in every " + N() + " children were in temporary accommodation. How many do you think it is now? Tap a desk to fill up to it."
+      : "How many children in every " + N() + " do you think are in temporary accommodation now? Tap a desk to fill up to it.";
+    buildDesks($("desks"), 0, true);
+    $("nowCount").textContent = "";
+    $("nowCap").textContent = "March 2026: your guess";
+    deskGuess = 0;
+    $("guessCount").textContent = "Tap a desk to fill up to it.";
+    $("deskReveal").hidden = false; $("deskReveal").disabled = true;
+    $("deskResult").hidden = true; $("movedResult").hidden = true; $("nextBlock").hidden = true;
+    if (revealedSet.has(current)) showAnswer(false);
+  }
+
+  $("desks").addEventListener("click", e => {
+    const d = e.target.closest(".desk"); if (!d || revealedSet.has(current)) return;
+    const n = +d.dataset.i + 1; deskGuess = (n === deskGuess) ? n - 1 : n;
+    $("desks").querySelectorAll(".desk").forEach((x, i) => x.classList.toggle("guess", i < deskGuess));
+    $("guessCount").textContent = deskGuess ? "Your guess: " + deskGuess + " in " + N() + "." : "Tap a desk to fill up to it.";
+    $("deskReveal").disabled = false;
+  });
+  document.querySelectorAll(".sizes button").forEach(btn => btn.addEventListener("click", () => {
+    size = +btn.dataset.size;
+    document.querySelectorAll(".sizes button").forEach(x => x.setAttribute("aria-pressed", x === btn ? "true" : "false"));
+    renderRooms();
+  }));
+  $("deskReveal").addEventListener("click", () => {
+    guesses[current] = {guess: deskGuess, size}; revealedSet.add(current); showAnswer(true);
+  });
+
+  function showAnswer(animate){
+    const b = byCode[current], desks = [...$("desks").querySelectorAll(".desk")];
+    const tp = thenPoint(b), thenN = tp ? desksFor(per100(tp.children_in_ta, b.children_0_17)) : null;
+    const n = desksFor(b.per_100_children), g = guesses[current], sameSize = g && g.size === size;
+    $("deskReveal").hidden = true;
+    $("nowCap").textContent = "March 2026";
+    desks.forEach((d, i) => { d.classList.toggle("guess", sameSize && i < g.guess); d.disabled = true; d.style.cursor = "default"; });
+    $("guessCount").textContent = sameSize ? "Your guess: " + g.guess + " in " + N() + "." : (g ? "You guessed " + g.guess + " in " + g.size.toLocaleString("en-GB") + "." : "");
+    const step = (!animate || reduced) ? 0 : Math.max(4, Math.min(90, 1400 / Math.max(n, 1)));
+    desks.slice(0, n).forEach((d, i) => step ? setTimeout(() => d.classList.add("real"), i * step) : d.classList.add("real"));
+
+    const finish = () => {
+      $("nowCount").textContent = n + " in " + N();
+      let verdict;
+      if (n === 0) verdict = "Fewer than 1 in " + N() + ". Try a school of 1,000.";
+      else if (sameSize && g.guess === n) verdict = "Spot on. It's " + n + " in " + N() + ".";
+      else if (sameSize) verdict = "Not quite. It's " + n + " in " + N() + ", not " + g.guess + ".";
+      else verdict = "It's " + n + " in " + N() + ".";
+      let change = "";
+      if (tp && n > 0) {
+        const diff = n - thenN;
+        change = diff > 0 ? "Up from " + thenN + " in " + qLabel(tp.quarter) + ". " + diff + " more " + (diff === 1 ? "child" : "children") + " in every " + N() + "."
+               : diff < 0 ? "Down from " + thenN + " in " + qLabel(tp.quarter) + ". " + (-diff) + " fewer in every " + N() + "."
+               : "The same as " + qLabel(tp.quarter) + " at this scale.";
+      }
+      $("deskResult").innerHTML = "<p class='verdict'>" + verdict + "</p>" + (change ? "<p>" + change + "</p>" : "") +
+        "<p class='muted small'>" + fmt(b.children_in_ta) + " children in " + b.borough + " were living in temporary accommodation in March 2026, " +
+        p1(b.per_100_children) + " in every 100. Across London it's about " + desksFor(H.per_100_children) + " in " + N() + ".</p>";
+      $("deskResult").hidden = false; $("detailsBlock").hidden = false; colourMap();
+      // The empty desks: families placed outside the borough
+      const pct = b.pct_households_placed_elsewhere;
+      if (pct != null && n > 0) {
+        const m = Math.round(n * pct / 100);
+        const moveIt = () => {
+          desks.slice(n - m, n).forEach((d, i) => step ? setTimeout(() => d.classList.add("moved"), i * Math.max(30, step)) : d.classList.add("moved"));
+          $("movedResult").innerHTML = "<p class='verdict' style='color:var(--pink)'>About " + m + " of those " + n + " desks empty out.</p>" +
+            "<p class='muted'>" + pct + "% of households in temporary accommodation from " + b.borough +
+            " were placed outside the borough, which can mean a new school or a long journey to the old one. (Approximate: this is the share of households, applied to children.)</p>";
+          $("movedResult").hidden = false; renderNext();
+        };
+        step ? setTimeout(moveIt, 1200) : moveIt();
+      } else renderNext();
+    };
+    step ? setTimeout(finish, n * step + 200) : finish();
+  }
+
+  function renderNext(){
+    // Always a school of 1,000 here: London's change is too small to see at 30 or 100
+    const f = D.forecast[D.forecast.length - 1], K = 1000, at = p => p == null ? 0 : Math.round(p * K / 100);
+    const thenN = at(per100(lonThen, LON_POP)), nowN = at(H.per_100_children), nextN = at(per100(f.forecast, LON_POP));
+    const lo = at(per100(f.low_80, LON_POP)), hi = at(per100(f.high_80, LON_POP));
+    $("nextLede").textContent = "Single boroughs can't be forecast reliably, because many have gaps in their figures. London's official totals have none. " +
+      "In a London school of 1,000, it was " + thenN + " children in " + qLabel(THEN_Q) + " and " + nowN + " now.";
+    $("nextCap").textContent = "A London school of 1,000, " + qLabel(f.quarter) + " (forecast)";
+    $("nextCount").textContent = "about " + nextN;
+    const box = $("desksNext"); buildDesks(box, 0, false, K);
+    [...box.children].forEach((d, i) => { if (i < nowN) d.classList.add("real"); else if (i < nextN) d.classList.add("forecast"); });
+    $("nextNote").textContent = "Solid: London today (" + nowN + "). Dashed: " + (nextN - nowN) + " more by " + qLabel(f.quarter) +
+      " if current trends continue (likely range " + lo + " to " + hi + "). Uses the mid-2025 child population throughout, so it shows the trend, not an exact future count.";
+    $("nextBlock").hidden = false;
+  }
+
+  function colourMap(){
+    map.querySelectorAll("path").forEach(p => { if (revealedSet.has(p.dataset.code)) p.setAttribute("fill", shade(byCode[p.dataset.code].per_100_children)); });
+    $("mapScale").hidden = revealedSet.size === 0;
+  }
+
+  function renderDetails(){
+    const b = byCode[current];
+    $("detailHead").textContent = b.borough + " in numbers";
+    const stats = [
+      ["Children in temporary accommodation", fmt(b.children_in_ta), "pink", "MHCLG, March 2026"],
+      ["In every 100 children", p1(b.per_100_children), "mint", "Children aged 0 to 17, ONS mid-2025"],
+      ["Households placed outside the borough", b.pct_households_placed_elsewhere == null ? "Not published" : b.pct_households_placed_elsewhere + "%", "", "Of households in temporary accommodation. Moving borough can mean changing schools or long journeys."],
+      ["Families in a B&B beyond six weeks", fmt(b.bnb_children_over_6_weeks), "", b.bnb_children_over_6_weeks == null ? "Suppressed by the source because the number is small" : "Households with children, March 2026"],
+    ];
+    $("stats").innerHTML = stats.map(s => "<div><div class='label plain'>" + s[0] + "</div><div class='stat " + s[2] + "'>" + s[1] + "</div><div class='small muted'>" + s[3] + "</div></div>").join("");
+    // history with gaps shown as breaks
+    const sp = $("spark"); sp.innerHTML = "";
+    const h = b.history, vals = h.map(r => r.children_in_ta).filter(v => v != null);
+    const mx = Math.max(...vals) * 1.1, x0 = 60, x1 = 785, y0 = 16, y1 = 180;
+    const xs = i => x0 + (x1 - x0) * i / (h.length - 1), ys = v => y1 - (y1 - y0) * v / mx;
+    [0, .5, 1].forEach(f => { const v = mx * f; el("line", {x1:x0, x2:x1, y1:ys(v), y2:ys(v), stroke:"var(--line)"}, sp);
+      el("text", {x:x0 - 8, y:ys(v) + 4, "text-anchor":"end", "font-size":12, fill:"var(--muted)"}, sp).textContent = Math.round(v).toLocaleString("en-GB"); });
+    let d = "", pen = false;
+    h.forEach((r, i) => {
+      if (r.children_in_ta == null) { pen = false; el("rect", {x:xs(i) - 4, y:y0, width:8, height:y1 - y0, fill:"var(--line)", opacity:.5}, sp); return; }
+      d += (pen ? "L" : "M") + xs(i).toFixed(1) + "," + ys(r.children_in_ta).toFixed(1); pen = true;
+      if (r.quarter.endsWith("Q1")) el("text", {x:xs(i), y:y1 + 24, "text-anchor":"middle", "font-size":12, fill:"var(--muted)"}, sp).textContent = r.quarter.slice(0, 4);
+    });
+    h.forEach((r, i) => { if (r.children_in_ta == null && r.quarter.endsWith("Q1")) el("text", {x:xs(i), y:y1 + 24, "text-anchor":"middle", "font-size":12, fill:"var(--muted)"}, sp).textContent = r.quarter.slice(0, 4); });
+    el("path", {d, fill:"none", stroke:"var(--mint)", "stroke-width":3, "stroke-linejoin":"round"}, sp);
+    sp.setAttribute("aria-label", "Line chart of children in temporary accommodation in " + b.borough + " by quarter");
+    $("gapNote").textContent = b.quarters_missing > 0
+      ? "Shaded bars: quarters when " + b.borough + " didn't report figures (" + b.quarters_missing + " of " + h.length + "). Gaps are shown as breaks, not zeros."
+      : b.borough + " reported figures in every quarter.";
+  }
+  $("guessBlock").hidden = true;   // appears once a borough is picked
+
+  // ---------------------------------------------------------------- sources page
+  const FM = D.forecast_model, DQ = D.data_quality, SR = D.sources;
+  const names = {holt:"Holt's exponential smoothing (chosen)", drift_recent:"Trend of the last two years", holt_damped:"Holt's, with a flattening trend", naive:"No change from the latest quarter"};
+  const rows = [["holt", FM.backtest_mae_overall]].concat(Object.entries(FM.baselines_mae_overall)).sort((a, b) => a[1] - b[1]);
+  $("method").innerHTML =
+    "<div class='label'>Sources and method</div><h1 class='display' style='font-size:clamp(2.6rem,8vw,5rem)'>How this was made</h1>" +
+    "<h3>The data</h3><p><strong>Temporary accommodation:</strong> " + SR.temporary_accommodation + ". " +
+    "<strong>Children in each borough:</strong> " + SR.child_population + ". Both under the " + SR.licence + ".</p>" +
+    "<p>The population figures are from mid-2025 and the temporary accommodation figures from March 2026, the latest of each available.</p>" +
+    "<h3>Data quality</h3><p>" + DQ.boroughs_with_any_gap + " of 33 boroughs didn't report figures for at least one quarter (" +
+    DQ.borough_quarters_missing + " of " + DQ.borough_quarters_total + " borough-quarters). Adding up boroughs would undercount London in those quarters, so London-wide figures use the official London totals. All 33 boroughs reported in March 2026, so the borough page uses that quarter.</p>" +
+    "<p>The raw files were cleaned with a Python pipeline that keeps suppressed values as missing (never zero) and checks every quarter. One source error was found and fixed: Westminster's number of households was published as 0 for June 2020, caught by a Truero data quality check.</p>" +
+    "<h3>The forecast</h3><p>The forecast uses <strong>" + FM.model + "</strong>, trained on official London totals from " + FM.trained_on +
+    ". Each method was tested by forecasting from points in the past using only the data available then, and comparing against what actually happened. Average error in children:</p>" +
+    "<table><thead><tr><th>Method</th><th>Average error</th></tr></thead><tbody>" +
+    rows.map(r => "<tr class='" + (r[0] === "holt" ? "win" : "") + "'><td>" + (names[r[0]] || r[0]) + "</td><td class='num'>" + fmt(r[1]) + "</td></tr>").join("") +
+    "</tbody></table><p>" + FM.note + " The forecast assumes current trends continue; a change in policy or the economy could change the direction. Testing covered up to four quarters ahead, so the second year is less certain than the first.</p>" +
+    "<h3>The classrooms</h3><p>“In every 100 children” is children in temporary accommodation divided by all children aged 0 to 17 living in the borough (ONS mid-2025). Desk counts are rounded to the nearest whole child.</p>" +
+    "<p><strong>Two years ago:</strong> March 2024 figures, or the nearest quarter a borough reported (labelled), divided by the same mid-2025 population, so the change reflects temporary accommodation rather than population change.</p>" +
+    "<p><strong>Placed outside the borough:</strong> the share of households in temporary accommodation placed in another local authority, applied to the children's desks. It's a household share, so it's an approximation for children.</p>" +
+    "<p><strong>London in two years:</strong> the London forecast divided by the mid-2025 child population. Boroughs aren't forecast individually because many have gaps in their figures.</p>";
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+{
+  "target": "children_in_ta",
+  "model": "holt",
+  "trained_on": "2019 Q3 to 2026 Q1",
+  "backtest_mae_by_quarters_ahead": {
+    "1": 1126,
+    "2": 2266,
+    "3": 2758,
+    "4": 2973
+  },
+  "backtest_mae_overall": 2201,
+  "baselines_mae_overall": {
+    "drift_recent": 2320,
+    "holt_damped": 3765,
+    "naive": 4407
+  },
+  "history": [
+    {
+      "quarter": "2019 Q3",
+      "value": 90080
+    },
+    {
+      "quarter": "2019 Q4",
+      "value": 90080
+    },
+    {
+      "quarter": "2020 Q1",
+      "value": 89540
+    },
+    {
+      "quarter": "2020 Q2",
+      "value": 89820
+    },
+    {
+      "quarter": "2020 Q3",
+      "value": 86280
+    },
+    {
+      "quarter": "2020 Q4",
+      "value": 85020
+    },
+    {
+      "quarter": "2021 Q1",
+      "value": 85100
+    },
+    {
+      "quarter": "2021 Q2",
+      "value": 85500
+    },
+    {
+      "quarter": "2021 Q3",
+      "value": 76710
+    },
+    {
+      "quarter": "2021 Q4",
+      "value": 76470
+    },
+    {
+      "quarter": "2022 Q1",
+      "value": 75820
+    },
+    {
+      "quarter": "2022 Q2",
+      "value": 74470
+    },
+    {
+      "quarter": "2022 Q3",
+      "value": 75350
+    },
+    {
+      "quarter": "2022 Q4",
+      "value": 74830
+    },
+    {
+      "quarter": "2023 Q1",
+      "value": 77120
+    },
+    {
+      "quarter": "2023 Q2",
+      "value": 82610
+    },
+    {
+      "quarter": "2023 Q3",
+      "value": 83350
+    },
+    {
+      "quarter": "2023 Q4",
+      "value": 84920
+    },
+    {
+      "quarter": "2024 Q1",
+      "value": 86750
+    },
+    {
+      "quarter": "2024 Q2",
+      "value": 91000
+    },
+    {
+      "quarter": "2024 Q3",
+      "value": 92810
+    },
+    {
+      "quarter": "2024 Q4",
+      "value": 93870
+    },
+    {
+      "quarter": "2025 Q1",
+      "value": 94360
+    },
+    {
+      "quarter": "2025 Q2",
+      "value": 97120
+    },
+    {
+      "quarter": "2025 Q3",
+      "value": 99160
+    },
+    {
+      "quarter": "2025 Q4",
+      "value": 100880
+    },
+    {
+      "quarter": "2026 Q1",
+      "value": 101620
+    }
+  ],
+  "forecast": [
+    {
+      "quarter": "2026 Q2",
+      "forecast": 103354,
+      "low_80": 100245,
+      "high_80": 106462,
+      "low_95": 98600,
+      "high_95": 108107
+    },
+    {
+      "quarter": "2026 Q3",
+      "forecast": 104896,
+      "low_80": 100233,
+      "high_80": 109559,
+      "low_95": 97765,
+      "high_95": 112028
+    },
+    {
+      "quarter": "2026 Q4",
+      "forecast": 106439,
+      "low_80": 100054,
+      "high_80": 112823,
+      "low_95": 96675,
+      "high_95": 116203
+    },
+    {
+      "quarter": "2027 Q1",
+      "forecast": 107982,
+      "low_80": 99719,
+      "high_80": 116244,
+      "low_95": 95345,
+      "high_95": 120618
+    },
+    {
+      "quarter": "2027 Q2",
+      "forecast": 109524,
+      "low_80": 99236,
+      "high_80": 119813,
+      "low_95": 93789,
+      "high_95": 125259
+    },
+    {
+      "quarter": "2027 Q3",
+      "forecast": 111067,
+      "low_80": 98615,
+      "high_80": 123519,
+      "low_95": 92023,
+      "high_95": 130111
+    },
+    {
+      "quarter": "2027 Q4",
+      "forecast": 112610,
+      "low_80": 97863,
+      "high_80": 127356,
+      "low_95": 90057,
+      "high_95": 135162
+    },
+    {
+      "quarter": "2028 Q1",
+      "forecast": 114152,
+      "low_80": 96988,
+      "high_80": 131317,
+      "low_95": 87902,
+      "high_95": 140403
+    }
+  ],
+  "note": "If current trends continue. Ranges show 80% and 95% prediction intervals."
+}
