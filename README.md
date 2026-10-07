@@ -4,7 +4,8 @@
 
 A rebuild of *Houseopoly*, made with Nika Hamid at the House London data sprint (Newspeak House). The original was a Monopoly-style game that never quite connected to the data. This version starts from the data: a cleaned 2019–2026 time series for every London borough, a tested forecast, and an interactive site.
 
-**Live site:** [Netlify link]
+**Live site:** 
+houseopoly-hackathon.netlify.app
 
 ## Features
 - **Draw your guess:** sketch the trend since 2019, then see the real line and a forecast with its uncertainty range.
@@ -50,5 +51,3 @@ Start with the question and the data, then choose the format. Next, I'd like to 
 
 ## Credits
 Nika Hamid, for building the original with me, and Ellie and the Truero team, for the demo and Pro access.
-
-Built by Aalia, MSci Computer Science, City St George's, University of London.
